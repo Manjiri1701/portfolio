@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/457f90a13a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.jpg" class="logo">
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Devops Engineer</p>
+                <h1>Hi, I'm <span>Manjiri</span><br>From Maharashtra</h1>
+            </div>
+        </div>
+      </div>
+      <!----------About---------->
+      <div id="About">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I'am Manjiri, a web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With 3 years of experience in the field. I am always looking for new and innovative ways to bring my clients vision to life.
+                <br>    I Believe that design is about more than just making things look beautiful-Its about solving problems and creating intuitive, enjoyable experience for users.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><Span>Web Development</Span><br>Web App Development</li>
+                        <li><Span>App Development</Span><br>Building Android/IOS Apps</li>
+                    </ul>   
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2024-Current</span><br>Working at HCl Technologies</li>
+                        <li><Span>2020-2024</Span><br>Senior Analyst at HCl Tech</li>
+                        <li><Span>2019-2020</Span><br>Techbee traning at HCLTSS</li>
+                    </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023-current</span><br>Persuing B.sc from BITS Pilani</li>
+                    <li><Span>2019</Span><br>HSC from Brijlal Biyani Sci. College</li>
+                    <li><Span>2017</Span><br>SSC from Mount Carmel Convent School</li>
+                </ul>
+        </div>
+        </div>
+      </div>
+
+      <!---------------------Service----------------->
+      <div id="services">
+
+        <div class="container">
+            <h1 id="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A web developer makes and maintains websites. They are in charge of a site's overall look and feel. Web developers also handle the technical aspects of a website, including its performance (website speed) and capacity</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI UX designers create the user interface for an app, website, or other interactive media. Their work includes collaborating with product managers and engineers to gather requirements from users before designing ideas that can be communicated using storyboards.</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design is an ongoing process comprising user experience (UX) and user interface (UI) elements. Designers ideate, define solutions, create the app's flow and structure, and make stylistic choices from colors to fonts. Designers base choices on user research and feedback</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!------------------Portfolio-------------->
+      <div id="portfolio">
+        <div class="container">
+            <h1 id="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Social media apps are applications which can either be downloaded and stored on your phone or tablet, or streamed through your internet browser.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Social media apps are applications which can either be downloaded and stored on your phone or tablet, or streamed through your internet browser.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Social media apps are applications which can either be downloaded and stored on your phone or tablet, or streamed through your internet browser.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!--------------------Contact-------------->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>manjirimohitkar02@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>9845663727</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Manjiri1701"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my cv.docx" download class="btn btn2">Download CV</a>
+            
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <Button type="submit" class="btn2">Submit</Button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Manjiri. Made with <i class="fa-solid fa-heart"></i> by Manjiri </p>
+        </div>
+      </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzPnVNztYFDMKV1xOlPcb9B0ZbHMRffdutV_hAdA8lIb4IJ-9Tdsd_9m3Do3sA5ftfB/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
